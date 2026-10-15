@@ -5,6 +5,7 @@ description: >-
   School, Office Hours, Lightcone, and Garry Tan. Use when the user asks what
   YC or Paul Graham says about startups, founders, hiring, growth, or product.
   Do not use for the YC company directory or for ordinary coding tasks.
+license: Apache-2.0
 ---
 
 # YC Office Hours
