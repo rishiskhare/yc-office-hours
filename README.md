@@ -1,6 +1,6 @@
 # YC Office Hours
 
-A coding-agent skill that searches the YC Startup Library, including Paul Graham essays, Startup School, Office Hours, and Lightcone.
+A coding-agent skill that maintains a self-updating index of the entire YC Startup Library, including Paul Graham essays, Startup School, Office Hours, and Lightcone.
 
 ## Install
 
@@ -12,11 +12,11 @@ npx skills add rishiskhare/yc-office-hours -g -y
 
 ## How it works
 
-When you ask, the agent searches a cache on your machine. It only runs when you ask.
+The index lives on your machine. When you ask, the agent searches it. Nothing runs until you ask.
 
-The first question builds that cache, including older essays and Paul Graham's essays. That takes a few minutes, and it only happens once.
+The first question builds the index, including older essays and Paul Graham's essays. That takes a few minutes, and it only happens once.
 
-**Self-updating knowledge:** New talks show up on their own. The next time you ask, if the cache is older than a day, the agent downloads them before searching. Older essays and Paul Graham's essays refresh about once a month, which can take a few minutes.
+**Self-updating knowledge:** New talks show up on their own. The next time you ask, if the index is older than a day, the agent downloads them before searching. Older essays and Paul Graham's essays refresh about once a month, which can take a few minutes.
 
 The transcripts stay in `~/.cache/yc-office-hours`. This repository does not contain them.
 
