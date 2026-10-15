@@ -1,3 +1,5 @@
+![YC Office Hours](banner.png)
+
 # YC Office Hours
 
 A coding-agent skill that maintains a self-updating index of the entire YC Startup Library, including Paul Graham essays, Startup School, Office Hours, and Lightcone.
