@@ -2,12 +2,14 @@
 
 # YC Office Hours
 
-A coding-agent skill that maintains a self-updating index of the entire YC Startup Library, including Paul Graham essays, Startup School, Office Hours, and Lightcone.
+[![skills.sh](https://skills.sh/b/rishiskhare/yc-office-hours)](https://skills.sh/rishiskhare/yc-office-hours)
+
+A coding agent skill that maintains a self-updating index of the entire YC Startup Library, including Paul Graham essays, Startup School, Office Hours, and Lightcone.
 
 ## Install
 
 ```bash
-npx skills add rishiskhare/yc-office-hours -g -y
+npx skills add rishiskhare/yc-office-hours -g
 ```
 
 `-g` installs the skill for every project. Requires Python 3, with no extra packages.
@@ -33,8 +35,12 @@ npx skills update yc-office-hours -g
 ## Uninstall
 
 ```bash
-npx skills remove yc-office-hours -g -y
+npx skills remove yc-office-hours -g
 rm -rf ~/.cache/yc-office-hours
 ```
 
 Remove the skill first. Deleting only the cache is not uninstall: the next question rebuilds it.
+
+## License
+
+[Apache-2.0](LICENSE)
